@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
+  <diagram name="Página-1" id="OaFhcw4ca2mEpa4Vge6H">
+    <mxGraphModel dx="862" dy="1644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fngdwCTwuhK5KtGcMtBk-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=light-dark(#F5F5F5,#FFFFFF);fontColor=#333333;strokeColor=light-dark(#666666,#FFFFFF);" value="" vertex="1">
+          <mxGeometry height="127.5" width="400" x="-56.25" y="-53.75" as="geometry" />
+        </mxCell>
+        <mxCell id="fngdwCTwuhK5KtGcMtBk-2" parent="1" style="text;strokeColor=#666666;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=light-dark(#333333,#000000);" value="HorizonAI" vertex="1">
+          <mxGeometry height="40" width="100" x="95" y="-180" as="geometry" />
+        </mxCell>
+        <UserObject label="Link" link="https://www.draw.io" id="fngdwCTwuhK5KtGcMtBk-3">
+          <mxCell parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=light-dark(#0000EE,#000000);fontStyle=4;" vertex="1">
+            <mxGeometry height="40" width="60" x="95" y="-110" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Link" link="https://www.draw.io" id="fngdwCTwuhK5KtGcMtBk-4">
+          <mxCell parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=light-dark(#0000EE,#000000);fontStyle=4;" vertex="1">
+            <mxGeometry height="35" width="60" x="95" y="-55" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Link" link="https://www.draw.io" id="fngdwCTwuhK5KtGcMtBk-5">
+          <mxCell parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=light-dark(#0000EE,#000000);fontStyle=4;" vertex="1">
+            <mxGeometry height="40" width="60" x="95" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Link" link="https://www.draw.io" id="fngdwCTwuhK5KtGcMtBk-6">
+          <mxCell parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=light-dark(#0000EE,#000000);fontStyle=4;" vertex="1">
+            <mxGeometry height="40" width="60" x="95" y="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="fngdwCTwuhK5KtGcMtBk-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="400" width="400" x="210" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="fngdwCTwuhK5KtGcMtBk-8" parent="1" style="text;strokeColor=#666666;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=light-dark(#333333,#000000);" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(243, 243, 243));&quot;&gt;Título&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="363" y="-180" as="geometry" />
+        </mxCell>
+        <UserObject label="Lorem ipsum..." placeholders="1" name="Variable" id="fngdwCTwuhK5KtGcMtBk-9">
+          <mxCell parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1">
+            <mxGeometry height="20" width="90" x="230" y="-120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="fngdwCTwuhK5KtGcMtBk-10" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#FFFFFF,#FFFFFF);" value="" vertex="1">
+          <mxGeometry height="120" width="120" x="460" y="-120" as="geometry" />
+        </mxCell>
+        <UserObject label="Imágenes" placeholders="1" name="Variable" id="fngdwCTwuhK5KtGcMtBk-11">
+          <mxCell parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=light-dark(#000000,#000000);" vertex="1">
+            <mxGeometry height="20" width="90" x="475" y="-70" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
