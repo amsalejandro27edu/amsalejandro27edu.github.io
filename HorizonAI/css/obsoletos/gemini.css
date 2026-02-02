@@ -1,0 +1,59 @@
+.titulo{
+	background-color: #1f1f1f;
+	border-radius: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.tituloPrincipal {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	font-size: 60px;
+}
+
+
+.tituloPrincipal img {
+    width: 300px;
+    height: 240px;
+	
+}
+
+.tituloPrincipal h1 {
+	font-size: 80px;
+
+}
+
+.intro {
+	text-align: justify;
+	align-content: flex-start;
+	margin: 10px;
+
+}
+
+.contenido{
+	background-color: #1a1a1a;
+	border-radius: 10px;
+	margin-top: 10px;
+	line-height: 30px;
+    padding: 10px;
+}
+
+.funcionalidades{
+    margin-top: 30px;
+	line-height: 30px;
+}
+
+.seccion-ventajas{
+	margin: 10px;
+	line-height: 30px;
+
+}
+
+.seccion-ventajas li{
+    list-style-type: square;
+    margin-left: 20px;
+}

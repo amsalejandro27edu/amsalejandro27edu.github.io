@@ -1,0 +1,87 @@
+He estado mirando cómo hacer lo del modo oscuro y modo claro. Lo mejor, crear variables en el :root en CSS donde se almacenen los colores de cada cosa. 
+
+:root {
+    --color-fondo: #0d0d0d;
+    --color-barra: #1a1a1a;
+    --color-borde: #333;
+    --color-texto: #e0e0e0;
+    --color-contenido: #1a1a1a;
+    --color-titulo: #1f1f1f;
+    --color-hover: #262626;
+    --color-enlace: #00b4ff;
+}
+
+:root.modo-claro {
+    --color-fondo: #f5f5f5;
+    --color-barra: #ffffff;
+    --color-borde: #d0d0d0;
+    --color-texto: #333333;
+    --color-contenido: #f9f9f9;
+    --color-titulo: #e8e8e8;
+    --color-hover: #e0e0e0;
+    --color-enlace: #0078d4;
+}
+
+Y añadirlos como variables en lugar de poner los colores directamente
+https://www.freecodecamp.org/espanol/news/tutorial-del-boton-de-alternancia-svg-como-manejar-el-modo-oscuro-con-css-y-javascript/#manejar
+
+Esto es lo que da Google:
+
+Para un botón de modo claro/oscuro en JavaScript, se usa un botón HTML, se añade un evento
+click en JS para alternar una clase (dark o light) en el <body> o <html> y se definen los estilos opuestos en CSS para ambas clases, usando localStorage para recordar la preferencia del usuario, logrando así un cambio persistente y suave. 
+html
+
+<!-- HTML: Botón con un ID -->
+<button id="theme-toggle">Cambiar Modo</button>
+
+javascript
+
+// JavaScript
+const themeToggleBtn = document.getElementById('theme-toggle');
+const body = document.body; // O document.documentElement para <html>
+
+// Cargar preferencia guardada (o modo por defecto)
+if (localStorage.getItem('theme') === 'dark') {
+    body.classList.add('dark');
+} else {
+    body.classList.add('light'); // Modo claro por defecto
+}
+
+themeToggleBtn.addEventListener('click', () => {
+    // Alternar clase y guardar preferencia
+    if (body.classList.contains('dark')) {
+        body.classList.remove('dark');
+        body.classList.add('light');
+        localStorage.setItem('theme', 'light');
+    } else {
+        body.classList.remove('light');
+        body.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+    }
+});
+
+css
+
+/* CSS */
+/* Estilos por defecto (modo claro) */
+body {
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s; /* Suaviza el cambio */
+}
+
+/* Estilos para el modo oscuro */
+body.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+Explicación:
+
+    HTML: Creamos un botón y le damos un ID para identificarlo en JavaScript.
+    CSS: Definimos estilos base (modo claro) y estilos específicos para la clase .dark (modo oscuro). Usamos transition para un cambio gradual.
+    JavaScript:
+        Seleccionamos el botón y el <body>.
+        Al cargar la página, revisamos localStorage para ver si el usuario ya eligió un tema y aplicamos la clase correspondiente.
+        En el evento click del botón, alternamos entre las clases light y dark en el <body>.
+        Guardamos la preferencia en localStorage para que el tema se mantenga al recargar la página. 

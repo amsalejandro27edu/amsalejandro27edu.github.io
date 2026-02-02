@@ -1,0 +1,95 @@
+.titulo{
+	background-color: #1f1f1f;
+	border-radius: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.tituloPrincipal {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	font-size: 60px;
+}
+
+
+.tituloPrincipal img {
+    width: 300px;
+    height: 240px;
+	
+}
+
+.tituloPrincipal h1 {
+	font-size: 80px;
+
+}
+
+.intro {
+	text-align: justify;
+	align-content: flex-start;
+	margin: 10px;
+
+}
+
+.contenido{
+	background-color: #1a1a1a;
+	border-radius: 10px;
+	margin-top: 10px;
+	line-height: 30px;
+}
+
+.funcionalidades{
+	margin: 10px;
+	line-height: 30px;
+
+}
+
+.seccion-ventajas{
+	margin: 10px;
+	line-height: 30px;
+
+}
+
+section li{
+	list-style: none;
+	font-size: 20px;
+}
+
+section li:before {
+	content: "\2B50";
+}
+
+section p {
+	font-size: 15px;
+	font-style: italic;
+	text-align: justify;
+
+}
+main {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: space-around;
+}
+h1 {
+	font-size: 50px;
+}
+section table {
+	margin: 10px;
+}
+section .ventajas{
+	background-color:darkolivegreen;
+	
+}
+section .desventajas{
+	background-color:indianred
+}
+td:before{
+	content: "\2BC8";
+	color: white;
+}
